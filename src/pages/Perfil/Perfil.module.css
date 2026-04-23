@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@700;800&display=swap');
+
+.container {
+  min-height: 100vh;
+  background-color: #0f172a;
+  font-family: 'Barlow', sans-serif;
+}
+
+.main {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.titulo {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.25rem;
+}
+
+.subtitulo {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 1rem;
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.avatarInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #334155;
+}
+
+.avatar {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1d4ed8, #38bdf8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.avatarLetra {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.avatarNome {
+  font-weight: 700;
+  color: #f1f5f9;
+  font-size: 1rem;
+}
+
+.avatarTipo {
+  font-size: 0.8rem;
+  color: #60a5fa;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.labelOpcional {
+  font-weight: 400;
+  color: #475569;
+  text-transform: none;
+}
+
+.input {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1rem;
+  font-size: 0.875rem;
+  color: #f1f5f9;
+  outline: none;
+  font-family: 'Barlow', sans-serif;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input::placeholder {
+  color: #475569;
+}
+
+.input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.erro {
+  font-size: 0.85rem;
+  color: #f87171;
+}
+
+.sucesso {
+  font-size: 0.85rem;
+  color: #4ade80;
+}
+
+.botaoSalvar {
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+  color: #ffffff;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+  margin-top: 0.25rem;
+}
+
+.botaoSalvar:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.cardPerigo {
+  background: #1e293b;
+  border: 1px solid #7f1d1d;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.tituloPerigo {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #f87171;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.4rem;
+}
+
+.descricaoPerigo {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-bottom: 1.25rem;
+}
+
+.botaoExcluir {
+  border: 1px solid #7f1d1d;
+  background: transparent;
+  color: #f87171;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.6rem 1.25rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.botaoExcluir:hover {
+  background: rgba(239, 68, 68, 0.1);
+}
